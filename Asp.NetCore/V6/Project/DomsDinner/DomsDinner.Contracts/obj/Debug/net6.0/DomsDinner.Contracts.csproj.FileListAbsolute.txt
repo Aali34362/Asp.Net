@@ -1,0 +1,12 @@
+F:\Programming\Asp\AspCore\v6\Project\DomsDinner\DomsDinner.Contracts\bin\Debug\net6.0\DomsDinner.Contracts.deps.json
+F:\Programming\Asp\AspCore\v6\Project\DomsDinner\DomsDinner.Contracts\bin\Debug\net6.0\DomsDinner.Contracts.dll
+F:\Programming\Asp\AspCore\v6\Project\DomsDinner\DomsDinner.Contracts\bin\Debug\net6.0\DomsDinner.Contracts.pdb
+F:\Programming\Asp\AspCore\v6\Project\DomsDinner\DomsDinner.Contracts\obj\Debug\net6.0\DomsDinner.Contracts.csproj.AssemblyReference.cache
+F:\Programming\Asp\AspCore\v6\Project\DomsDinner\DomsDinner.Contracts\obj\Debug\net6.0\DomsDinner.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programming\Asp\AspCore\v6\Project\DomsDinner\DomsDinner.Contracts\obj\Debug\net6.0\DomsDinner.Contracts.AssemblyInfoInputs.cache
+F:\Programming\Asp\AspCore\v6\Project\DomsDinner\DomsDinner.Contracts\obj\Debug\net6.0\DomsDinner.Contracts.AssemblyInfo.cs
+F:\Programming\Asp\AspCore\v6\Project\DomsDinner\DomsDinner.Contracts\obj\Debug\net6.0\DomsDinner.Contracts.csproj.CoreCompileInputs.cache
+F:\Programming\Asp\AspCore\v6\Project\DomsDinner\DomsDinner.Contracts\obj\Debug\net6.0\DomsDinner.Contracts.dll
+F:\Programming\Asp\AspCore\v6\Project\DomsDinner\DomsDinner.Contracts\obj\Debug\net6.0\refint\DomsDinner.Contracts.dll
+F:\Programming\Asp\AspCore\v6\Project\DomsDinner\DomsDinner.Contracts\obj\Debug\net6.0\DomsDinner.Contracts.pdb
+F:\Programming\Asp\AspCore\v6\Project\DomsDinner\DomsDinner.Contracts\obj\Debug\net6.0\ref\DomsDinner.Contracts.dll

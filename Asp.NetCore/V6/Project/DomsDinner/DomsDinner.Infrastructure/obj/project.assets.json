@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "DomsDinner.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DomsDinner.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DomsDinner.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DomsDinner.Application.dll": {}
+        }
+      },
+      "DomsDinner.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DomsDinner.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DomsDinner.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DomsDinner.Application/1.0.0": {
+      "type": "project",
+      "path": "../DomsDinner.Application/DomsDinner.Application.csproj",
+      "msbuildProject": "../DomsDinner.Application/DomsDinner.Application.csproj"
+    },
+    "DomsDinner.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DomsDinner.Domain/DomsDinner.Domain.csproj",
+      "msbuildProject": "../DomsDinner.Domain/DomsDinner.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "DomsDinner.Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\aa882\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "f:\\Programming\\Asp\\AspCore\\v6\\Project\\DomsDinner\\DomsDinner.Infrastructure\\DomsDinner.Infrastructure.csproj",
+      "projectName": "DomsDinner.Infrastructure",
+      "projectPath": "f:\\Programming\\Asp\\AspCore\\v6\\Project\\DomsDinner\\DomsDinner.Infrastructure\\DomsDinner.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\aa882\\.nuget\\packages\\",
+      "outputPath": "f:\\Programming\\Asp\\AspCore\\v6\\Project\\DomsDinner\\DomsDinner.Infrastructure\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\aa882\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "f:\\Programming\\Asp\\AspCore\\v6\\Project\\DomsDinner\\DomsDinner.Application\\DomsDinner.Application.csproj": {
+              "projectPath": "f:\\Programming\\Asp\\AspCore\\v6\\Project\\DomsDinner\\DomsDinner.Application\\DomsDinner.Application.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

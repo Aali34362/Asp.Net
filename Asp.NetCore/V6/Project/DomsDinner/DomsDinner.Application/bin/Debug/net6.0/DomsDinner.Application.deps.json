@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DomsDinner.Application/1.0.0": {
+        "dependencies": {
+          "DomsDinner.Domain": "1.0.0"
+        },
+        "runtime": {
+          "DomsDinner.Application.dll": {}
+        }
+      },
+      "DomsDinner.Domain/1.0.0": {
+        "runtime": {
+          "DomsDinner.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DomsDinner.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DomsDinner.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
