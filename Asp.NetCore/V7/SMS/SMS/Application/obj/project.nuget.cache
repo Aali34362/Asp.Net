@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "Wk/S5ML2umZvksz3hlFOMLv0NYsOS2WcHqgW+I3XecUcuvIc/9JJCu+erWe1eKHXZn03Z5iNMLMAlVj1uFU9JQ==",
+  "success": true,
+  "projectFilePath": "F:\\Programming\\Asp\\Asp.Net\\Asp.NetCore\\V7\\SMS\\SMS\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aa882\\.nuget\\packages\\autofac\\7.1.0\\autofac.7.1.0.nupkg.sha512",
+    "C:\\Users\\aa882\\.nuget\\packages\\fluentvalidation\\11.0.0\\fluentvalidation.11.0.0.nupkg.sha512",
+    "C:\\Users\\aa882\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.0.0\\fluentvalidation.dependencyinjectionextensions.11.0.0.nupkg.sha512",
+    "C:\\Users\\aa882\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\aa882\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\aa882\\.nuget\\packages\\mediatr.extensions.autofac.dependencyinjection\\11.3.0\\mediatr.extensions.autofac.dependencyinjection.11.3.0.nupkg.sha512",
+    "C:\\Users\\aa882\\.nuget\\packages\\mediatr.extensions.fluentvalidation.aspnetcore\\5.1.0\\mediatr.extensions.fluentvalidation.aspnetcore.5.1.0.nupkg.sha512",
+    "C:\\Users\\aa882\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\aa882\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

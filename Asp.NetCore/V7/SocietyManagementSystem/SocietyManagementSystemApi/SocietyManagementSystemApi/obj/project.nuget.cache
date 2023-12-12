@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "QFq/sFAbSJpM7nWQsV7KT3WJsyzaGNTEQAhGCknQSJSAqgMei4mgs6BYFqUB8ZxDXckzRAd2TAxkeLnzh898WA==",
+  "success": true,
+  "projectFilePath": "F:\\Programming\\Asp\\Asp.Net\\Asp.NetCore\\V7\\SocietyManagementSystem\\SocietyManagementSystemApi\\SocietyManagementSystemApi\\SocietyManagementSystemApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aa882\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.1.0\\microsoft.aspnetcore.mvc.versioning.5.1.0.nupkg.sha512",
+    "C:\\Users\\aa882\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
+    "C:\\Users\\aa882\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\aa882\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\aa882\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\aa882\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\aa882\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\aa882\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

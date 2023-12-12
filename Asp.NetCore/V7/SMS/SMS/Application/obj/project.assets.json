@@ -1,0 +1,420 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Autofac/7.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/net7.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Autofac.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FluentValidation/11.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/11.0.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.0.0",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MediatR/12.2.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR.Contracts": "[2.0.1, 3.0.0)",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "compile": {
+          "lib/net6.0/MediatR.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MediatR.Extensions.Autofac.DependencyInjection/11.3.0": {
+        "type": "package",
+        "dependencies": {
+          "Autofac": "7.1.0",
+          "MediatR": "12.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.Extensions.Autofac.DependencyInjection.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Autofac.DependencyInjection.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "MediatR.Extensions.FluentValidation.AspNetCore/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.0.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.0.0",
+          "MediatR": "12.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.Extensions.FluentValidation.AspNetCore.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.Extensions.FluentValidation.AspNetCore.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/4.7.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Autofac/7.1.0": {
+      "sha512": "XCXmpxhOnuztTTRkzG+8B8KU8SR8WjBYwSntndjlsFR5lM3K/g43r9hUwewIPDBJwDrmZU3TjmNdH6s8IF3VFQ==",
+      "type": "package",
+      "path": "autofac/7.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "autofac.7.1.0.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net6.0/Autofac.dll",
+        "lib/net6.0/Autofac.xml",
+        "lib/net7.0/Autofac.dll",
+        "lib/net7.0/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
+    "FluentValidation/11.0.0": {
+      "sha512": "cD0VaOQfVZGxp3UFBDET5KztMe1W0QUgk7vP/e1zus0ofALqab5/B5S319+XEFvhw0KEStS3yfCDGpvQM10C6A==",
+      "type": "package",
+      "path": "fluentvalidation/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.0.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.0.0": {
+      "sha512": "jBQjbAxpXWnoalvGKTLyUoArNJ1dnIpxOknENxa7XuXHMy80Gc+VNJk5OoOpVX8JfhpZkLQOaPozycGVtUo7Tg==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.11.0.0.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
+      ]
+    },
+    "MediatR/12.2.0": {
+      "sha512": "8TUFrHapKi6D74PhnSNEguRsH91HNGyP3R4ZQdgDorJgl9Wac5Prh0vA33QfrniAaS6L2xNNhc6vxzg+5AIbwA==",
+      "type": "package",
+      "path": "mediatr/12.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net6.0/MediatR.dll",
+        "lib/net6.0/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "mediatr.12.2.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Contracts/2.0.1": {
+      "sha512": "FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "type": "package",
+      "path": "mediatr.contracts/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.0/MediatR.Contracts.dll",
+        "lib/netstandard2.0/MediatR.Contracts.xml",
+        "mediatr.contracts.2.0.1.nupkg.sha512",
+        "mediatr.contracts.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Autofac.DependencyInjection/11.3.0": {
+      "sha512": "+ZLtr8FNmZrpjaLXndLgwSvFsLW3IX6ABpQ0MiIvUviYe/HE+kKlwQQXvrSp8Hbmin/ygu2yk4NnP8Zck/FZiw==",
+      "type": "package",
+      "path": "mediatr.extensions.autofac.dependencyinjection/11.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.0/MediatR.Extensions.Autofac.DependencyInjection.dll",
+        "lib/netstandard2.0/MediatR.Extensions.Autofac.DependencyInjection.pdb",
+        "mediatr.extensions.autofac.dependencyinjection.11.3.0.nupkg.sha512",
+        "mediatr.extensions.autofac.dependencyinjection.nuspec"
+      ]
+    },
+    "MediatR.Extensions.FluentValidation.AspNetCore/5.1.0": {
+      "sha512": "V7nwIGpV2Xvf8dG6Ke6T1s3Gr7xKgAWMmHD9q7Bu6ltYe1e8jplI8va7quqoOR0lwn/vkTU/DEG6PkSz2LHRXQ==",
+      "type": "package",
+      "path": "mediatr.extensions.fluentvalidation.aspnetcore/5.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.1/MediatR.Extensions.FluentValidation.AspNetCore.dll",
+        "logo.png",
+        "mediatr.extensions.fluentvalidation.aspnetcore.5.1.0.nupkg.sha512",
+        "mediatr.extensions.fluentvalidation.aspnetcore.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "sha512": "cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Diagnostics.DiagnosticSource/4.7.1": {
+      "sha512": "j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
+      "type": "package",
+      "path": "system.diagnostics.diagnosticsource/4.7.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net45/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net45/System.Diagnostics.DiagnosticSource.xml",
+        "lib/net46/System.Diagnostics.DiagnosticSource.dll",
+        "lib/net46/System.Diagnostics.DiagnosticSource.xml",
+        "lib/netstandard1.1/System.Diagnostics.DiagnosticSource.dll",
+        "lib/netstandard1.1/System.Diagnostics.DiagnosticSource.xml",
+        "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll",
+        "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.xml",
+        "lib/portable-net45+win8+wpa81/System.Diagnostics.DiagnosticSource.dll",
+        "lib/portable-net45+win8+wpa81/System.Diagnostics.DiagnosticSource.xml",
+        "system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+        "system.diagnostics.diagnosticsource.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Domain/1.0.0": {
+      "type": "project",
+      "path": "../Domain/Domain.csproj",
+      "msbuildProject": "../Domain/Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Domain >= 1.0.0",
+      "MediatR >= 12.2.0",
+      "MediatR.Extensions.Autofac.DependencyInjection >= 11.3.0",
+      "MediatR.Extensions.FluentValidation.AspNetCore >= 5.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\aa882\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\Programming\\Asp\\Asp.Net\\Asp.NetCore\\V7\\SMS\\SMS\\Application\\Application.csproj",
+      "projectName": "Application",
+      "projectPath": "F:\\Programming\\Asp\\Asp.Net\\Asp.NetCore\\V7\\SMS\\SMS\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\aa882\\.nuget\\packages\\",
+      "outputPath": "F:\\Programming\\Asp\\Asp.Net\\Asp.NetCore\\V7\\SMS\\SMS\\Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\aa882\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "F:\\Programming\\Asp\\Asp.Net\\Asp.NetCore\\V7\\SMS\\SMS\\Domain\\Domain.csproj": {
+              "projectPath": "F:\\Programming\\Asp\\Asp.Net\\Asp.NetCore\\V7\\SMS\\SMS\\Domain\\Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[12.2.0, )"
+          },
+          "MediatR.Extensions.Autofac.DependencyInjection": {
+            "target": "Package",
+            "version": "[11.3.0, )"
+          },
+          "MediatR.Extensions.FluentValidation.AspNetCore": {
+            "target": "Package",
+            "version": "[5.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
